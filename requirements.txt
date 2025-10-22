@@ -1,0 +1,22 @@
+# requirements.txt
+
+# Google Gemini API
+google-generativeai==0.1.0 # Use the official library
+
+# Voice Input/Output
+SpeechRecognition==3.10.0
+PyAudio==0.2.14 # For microphone input (may require system dependencies like portaudio)
+# Note: Using PowerShell TTS on Windows instead of pyttsx3
+
+# Cross-Platform Libraries
+# Pycaw for Windows Volume Control (optional but recommended for full functionality)
+pycaw==20181212
+comtypes==1.2.0
+
+# General Utilities (may be implicitly used by OS commands or other libs)
+pyautogui==0.9.54 # Can be used for window control, though OS commands are prioritized.
+
+# NOTE: PyAudio often requires system dependencies (like portaudio) to be installed first.
+# On Linux: sudo apt-get install portaudio19-dev
+# On Mac: brew install portaudio
+# On Windows, wheels often work directly.

@@ -1,0 +1,24 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+voice_assistant.log
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Saved responses file (contains user data)
+voice_assistant/responses.txt
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
